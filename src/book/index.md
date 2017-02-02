@@ -2,8 +2,8 @@
 
 ## Table
 
-| Stuff | Numbers | Mod |
-|-------|---------|-----|
+| Name  | Score   | Mod |
+|-------|--------:|----:|
 | Bob   | 12      | +1  |
 | Carol | 16      | +3  | 
 | Dave  | 11      | +0  |
@@ -14,7 +14,7 @@
 - php includes that file in website
 - php also generates table of contents from that file.
 
-> this is a blockquote in a box and I love it nnbecaisse iffn irnefin ragnreuig heru grae uig aerui ghae rugaeu ir gr eugaer ga rekga regb aer 
+> I'm making an aside here. This is what that looks like. 
 
 # Derevon Setting Book
 

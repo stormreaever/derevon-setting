@@ -1,3 +1,6 @@
+html {
+  position: relative; }
+
 body {
   color: #111;
   background: #fdfdfd;
@@ -5,7 +8,7 @@ body {
   margin: 0 auto; }
 
 article {
-  font-family: optima;
+  font-family: cambria;
   font-size: 22px;
   line-height: 1.4;
   padding: 48px 96px;
@@ -34,8 +37,6 @@ footer {
 
 header a, footer a {
   display: block;
-  color: #e66;
-  font-family: "Gill Sans", Futura, sans-serif;
   font-size: 11px;
   text-transform: uppercase;
   text-decoration: none;
@@ -48,14 +49,110 @@ header a, footer a {
 
 h1, h2, h3, h4, h5, h6 {
   font-size: 1em;
-  margin: 1em 0; }
+  margin: 1em 0;
+  font-family: "Gill Sans", Futura, sans-serif; }
+
+h1, .h1 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 1.2em;
+  margin-bottom: 96px;
+  margin-top: 48px; }
+
+h2, .h2 {
+  font-weight: normal;
+  letter-spacing: 1px;
+  font-size: 1.4em;
+  border-bottom: 1px solid #ccc; }
 
 h3, .h3 {
   text-transform: uppercase;
   letter-spacing: 1px;
-  font-size: 1em;
+  font-size: 0.8em;
   margin: 1.2em 0; }
 
 h4, .h4 {
   font-weight: bold;
-  text-transform: capitalize; }
+  text-transform: capitalize;
+  font-family: cambria; }
+
+table {
+  font-family: "DIN";
+  font-size: 16px;
+  border-collapse: collapse;
+  width: 840px;
+  box-sizing: border-box;
+  margin: 48px 0;
+  margin-left: -96px; }
+  table a {
+    font-family: "DIN";
+    font-size: 16px; }
+
+td {
+  border-bottom: 1px solid #ccc;
+  height: 44px; }
+
+th {
+  border-bottom: 2px solid #222;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-family: "Gill Sans", Futura, sans-serif;
+  vertical-align: bottom; }
+
+td, th {
+  padding: 4px 16px; }
+
+blockquote {
+  font-family: "Gill Sans", Futura, sans-serif;
+  font-size: 17px;
+  background: #e8e8e8;
+  padding: 48px;
+  margin: 1.2em 0; }
+  blockquote p:first-child {
+    margin-top: 0; }
+  blockquote p:last-child {
+    margin-bottom: 0; }
+
+section {
+  margin-left: 48px; }
+
+ul, ol {
+  padding-left: 48px;
+  position: relative; }
+
+ul li {
+  list-style-type: none; }
+  ul li:before {
+    content: "\2014 ";
+    position: absolute;
+    left: 0; }
+
+.ogl {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 8px; }
+  .ogl a {
+    font-size: 12px;
+    text-decoration: none; }
+
+a {
+  color: #e66;
+  font-family: "Gill Sans", Futura, sans-serif;
+  font-size: 0.9em;
+  text-decoration: none; }
+  a:hover {
+    color: #111; }
+
+@keyframes target {
+  from {
+    color: #e66; }
+  to {
+    color: #111; } }
+
+*:target {
+  color: #111;
+  animation-name: target;
+  animation-duration: 3s;
+  animation-iteration-count: 1; }

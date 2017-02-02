@@ -4,7 +4,7 @@
   <?php
   
     $chapters=[
-      'book',
+      'index',
       'overview',
       'magic',
       'people',
@@ -16,7 +16,7 @@
     if (isset($_GET['chapter'])) {
       $chapter = strtolower(htmlspecialchars($_GET['chapter']));
     } else {
-      $chapter='book';
+      $chapter='index';
     }
     
   ?>
@@ -58,5 +58,8 @@
     
     ?>
   </footer>
+  <div class="ogl">
+    <a href="/ogl">Open Game License</a>
+  </div>
 </body>
 </html>
