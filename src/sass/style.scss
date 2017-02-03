@@ -82,8 +82,15 @@ header a,footer a {
     padding-right: 24px;
   }
   footer {
+    a.last_chapter {
+      width: calc( 50% - 64px);
+      text-align: right;
+    }
     a.contents {
-      width:132px;
+      width:128px;
+    }
+    a.next_chapter {
+      width: calc( 50% - 64px);
     }
   }
 }
@@ -266,7 +273,7 @@ li {
   margin: 0.4em 0;
 }
 
-/** open hand **/
+// open hand
 
 #open-hand-technique, #wholeness-of-body, #tranquility, #quivering-palm {
   &:before {

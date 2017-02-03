@@ -57,8 +57,13 @@ header a, footer a {
   header a, footer a {
     padding-left: 24px;
     padding-right: 24px; }
+  footer a.last_chapter {
+    width: calc( 50% - 64px);
+    text-align: right; }
   footer a.contents {
-    width: 132px; } }
+    width: 128px; }
+  footer a.next_chapter {
+    width: calc( 50% - 64px); } }
 
 h1, h2, h3, h4, h5, h6 {
   font-size: 1em;
@@ -211,6 +216,5 @@ a {
 li {
   margin: 0.4em 0; }
 
-/** open hand **/
 #open-hand-technique:before, #wholeness-of-body:before, #tranquility:before, #quivering-palm:before {
   content: "✋ "; }
