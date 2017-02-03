@@ -3,7 +3,7 @@
 
 *image goes here*
 
-> This page consists entirely of content from System Reference Document 5.1 licensed under the [Open Game License](ogl.html).
+> The following text is content from System Reference Document 5.1 licensed under the [Open Game License](ogl.html).
 
 ## Class Features 
 
