@@ -1,7 +1,6 @@
 var gulp = require('gulp');
 
 var markdown = require('gulp-markdown'),
-  notify = require('gulp-notify'),
   sass = require('gulp-sass');
 
 gulp.task('styles', function() {
