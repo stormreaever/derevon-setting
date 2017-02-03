@@ -4,12 +4,8 @@ var gulp = require('gulp');
 
 var markdown   = require('gulp-markdown'),
   sass         = require('gulp-sass'),
-  include      = require('gulp-include'),
-  rename       = require('gulp-rename'),
-  inject       = require('gulp-inject-string'),
   tap          = require('gulp-tap'),
-  headerfooter = require('gulp-headerfooter'),
-  insert       = require('gulp-insert');
+  headerfooter = require('gulp-headerfooter');
 
 gulp.task('styles', function() {
   gulp.src('src/sass/**/*.scss')
@@ -48,24 +44,14 @@ gulp.task('assemblehtml', function () {
       if (chapter_id < chapters.length - 1) {
         next_chap = chapters[chapter_id + 1];
       }
-      console.log(filename);
       
       var contents = file.contents.toString();
       contents = contents.replace(/{{chapter}}/g, filename);
       contents = contents.replace(/{{last-chap}}/g, last_chap);
       contents = contents.replace(/{{next-chap}}/g, next_chap);
       file.contents = new Buffer(contents, "utf-8");
-      
-      // .pipe(inject.replace('{{chapter}}', filename))
-      // .pipe(inject.replace('{{last-chap}}', last_chap))
-      // .pipe(inject.replace('{{next-chap}}', next_chap));
     }))
     .pipe(gulp.dest('build'));
-    // .pipe(inject.replace('{{chapter}}', filename))
-    // .pipe(inject.replace('{{last-chap}}', last_chap))
-    // .pipe(inject.replace('{{next-chap}}', next_chap))
-    // .pipe(gulp.dest('build/test'));
-    // console.log(filename);
 });
 
 //Watch task
