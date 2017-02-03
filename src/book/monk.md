@@ -7,7 +7,7 @@
 
 ## Class Features 
 
-As a monk, you gain the following class features. 
+As a monk, you gain the following class features.  
 
 ### Hit Points 
 
@@ -67,7 +67,6 @@ You start with the following equipment, in addition to the equipment granted by 
 |18th | +6                | 1d10         | 18        |  +30 ft.           | [Empty Body](#empty-body)
 |19th | +6                | 1d10         | 19        |  +30 ft.           | [Ability Score Improvement](#level-16)
 |20th | +6                | 1d10         | 20        |  +30 ft.           | [Perfect Self](#perfect-self)
-
 
 
 

@@ -58,5 +58,5 @@ gulp.task('assemblehtml', function () {
 gulp.task('default',function() {
   gulp.watch('src/sass/**/*.scss',['styles']);
   gulp.watch('src/book/**/*.md',['assemblehtml']);
-  gulp.watch('src/book/templates/*.html',['assemblehtml']);
+  gulp.watch('src/templates/**/*.html',['assemblehtml']);
 });

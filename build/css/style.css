@@ -15,6 +15,11 @@ article {
   padding: 48px 96px;
   box-sizing: border-box; }
 
+@media screen and (max-width: 840px) {
+  article {
+    padding: 24px 24px;
+    font-size: 18px; } }
+
 header {
   border-bottom: 1px solid #ddd; }
   header a {
@@ -90,6 +95,16 @@ table {
   table a {
     font-family: "DIN", "DIN Alternate";
     font-size: 16px; }
+
+@media screen and (max-width: 840px) {
+  .table {
+    width: 100vw;
+    position: relative;
+    left: 0;
+    overflow-x: scroll;
+    margin-left: -24px; }
+  table {
+    margin-left: 0; } }
 
 td {
   border-bottom: 1px solid #ccc;

@@ -27,6 +27,12 @@ article {
   padding: 48px 96px;
   box-sizing: border-box;  
 }
+@media screen and (max-width: 840px) {
+	article {
+  padding: 24px 24px;
+  font-size: 18px;
+	}
+}
 
 header {
   border-bottom: 1px solid #ddd;
@@ -114,6 +120,18 @@ table {
     font-family: $fonts-DIN; 
     font-size: 16px;
   }
+}
+@media screen and (max-width: 840px) {
+  .table {
+    width: 100vw;
+    position: relative;
+    left: 0;
+		overflow-x: scroll;
+    margin-left: -24px;
+  }
+	table {
+    margin-left: 0;
+	}
 }
 
 td {
