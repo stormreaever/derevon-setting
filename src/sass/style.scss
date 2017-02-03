@@ -131,6 +131,10 @@ table {
   }
 	table {
     margin-left: 0;
+    font-size: 14px;
+    a {
+      font-size: 14px;
+    }
 	}
 }
 
@@ -150,6 +154,14 @@ th {
 
 td, th {
   padding: 4px 16px;
+}
+@media screen and (max-width: 840px) {
+  td, th {
+    padding: 2px 8px;
+  }
+  th {
+    font-size: 12px;
+  }
 }
 
 blockquote {

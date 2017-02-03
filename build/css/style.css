@@ -104,7 +104,10 @@ table {
     overflow-x: scroll;
     margin-left: -24px; }
   table {
-    margin-left: 0; } }
+    margin-left: 0;
+    font-size: 14px; }
+    table a {
+      font-size: 14px; } }
 
 td {
   border-bottom: 1px solid #ccc;
@@ -120,6 +123,12 @@ th {
 
 td, th {
   padding: 4px 16px; }
+
+@media screen and (max-width: 840px) {
+  td, th {
+    padding: 2px 8px; }
+  th {
+    font-size: 12px; } }
 
 blockquote {
   font-family: "Gill Sans", Futura, sans-serif;

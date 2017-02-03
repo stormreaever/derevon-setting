@@ -4,6 +4,7 @@ var gulp = require('gulp');
 
 var markdown   = require('gulp-markdown'),
   sass         = require('gulp-sass'),
+  uglify       = require('gulp-uglify'),
   tap          = require('gulp-tap'),
   headerfooter = require('gulp-headerfooter');
 
@@ -11,6 +12,12 @@ gulp.task('styles', function() {
   gulp.src('src/sass/**/*.scss')
     .pipe(sass().on('error', sass.logError))
     .pipe(gulp.dest('build/css'));
+});
+
+gulp.task('scripts', function() {
+  gulp.src('src/js/**/*.js')
+    .pipe(uglify())
+    .pipe(gulp.dest('build/js'));
 });
  
 gulp.task('assemblehtml', function () {
@@ -55,8 +62,11 @@ gulp.task('assemblehtml', function () {
 });
 
 //Watch task
-gulp.task('default',function() {
+gulp.task('watch', function() {
   gulp.watch('src/sass/**/*.scss',['styles']);
+  gulp.watch('src/js/**/*.js',['scripts']);
   gulp.watch('src/book/**/*.md',['assemblehtml']);
   gulp.watch('src/templates/**/*.html',['assemblehtml']);
 });
+
+gulp.task('default', ['styles', 'scripts', 'assemblehtml']);
