@@ -1,3 +1,4 @@
+@charset "UTF-8";
 html {
   position: relative; }
 
@@ -63,7 +64,8 @@ h2, .h2 {
   font-weight: normal;
   letter-spacing: 1px;
   font-size: 1.4em;
-  border-bottom: 1px solid #ccc; }
+  border-bottom: 1px solid #ccc;
+  margin: 1.4em 0; }
 
 h3, .h3 {
   text-transform: uppercase;
@@ -74,10 +76,11 @@ h3, .h3 {
 h4, .h4 {
   font-weight: bold;
   text-transform: capitalize;
-  font-family: cambria; }
+  font-family: cambria;
+  font-size: 0.9em; }
 
 table {
-  font-family: "DIN";
+  font-family: "DIN", "DIN Alternate";
   font-size: 16px;
   border-collapse: collapse;
   width: 840px;
@@ -85,7 +88,7 @@ table {
   margin: 48px 0;
   margin-left: -96px; }
   table a {
-    font-family: "DIN";
+    font-family: "DIN", "DIN Alternate";
     font-size: 16px; }
 
 td {
@@ -159,3 +162,7 @@ a {
 
 li {
   margin: 0.4em 0; }
+
+/** open hand **/
+#open-hand-technique:before, #wholeness-of-body:before, #tranquility:before, #quivering-palm:before {
+  content: "✋ "; }

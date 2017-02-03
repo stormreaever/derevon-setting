@@ -2,6 +2,7 @@
 // ------------
 $fonts-sans: "Gill Sans", Futura, sans-serif;
 $fonts-normal: cambria;
+$fonts-DIN: "DIN", "DIN Alternate";
 $red: #e66;
 $black: #111;
 
@@ -86,6 +87,7 @@ h2, .h2 {
   letter-spacing: 1px;
   font-size: 1.4em;
   border-bottom:1px solid #ccc;
+  margin: 1.4em 0;
 }
 h3, .h3 {
   text-transform: uppercase;
@@ -97,10 +99,11 @@ h4, .h4 {
   font-weight: bold;
   text-transform: capitalize; 
   font-family: $fonts-normal;
+  font-size: 0.9em;
 }
 
 table {
-  font-family: "DIN"; 
+  font-family: $fonts-DIN; 
   font-size: 16px;
   border-collapse: collapse;
   width: 840px;
@@ -108,7 +111,7 @@ table {
   margin: 48px 0;
   margin-left: -96px;
   a {
-    font-family: "DIN"; 
+    font-family: $fonts-DIN; 
     font-size: 16px;
   }
 }
@@ -196,4 +199,12 @@ a {
 
 li {
   margin: 0.4em 0;
+}
+
+/** open hand **/
+
+#open-hand-technique, #wholeness-of-body, #tranquility, #quivering-palm {
+  &:before {
+    content: "✋ ";
+  }
 }
