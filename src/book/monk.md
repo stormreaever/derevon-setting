@@ -1,7 +1,7 @@
 # Monk 
 
 
-*image goes here 123456789012345678901234567890123456789012345*
+*image goes here*
 
 > This page consists entirely of content from System Reference Document 5.1 licensed under the [Open Game License](/ogl).
 
