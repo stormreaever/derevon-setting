@@ -70,7 +70,7 @@ You start with the following equipment, in addition to the equipment granted by 
 
 
 
-## Level 1
+## 1st Level
 
 ### Unarmored Defense
 
@@ -86,7 +86,7 @@ At 1st level, your practice of martial arts gives you mastery of combat styles t
 Certain monasteries use specialized forms of the monk weapons. For example, you might use a club that is two lengths of wood connected by a short chain (called a nunchaku) or a sickle with a shorter, straighter blade (called a kama). Whatever name you use for a monk weapon, you can use the game statistics provided for the weapon. 
 
 
-## Level 2
+## 2nd Level
 
 
 ### Ki 
@@ -119,7 +119,7 @@ You must spend at least 30 minutes of the rest meditating to regain your ki poin
 
 Starting at 2nd level, your speed increases by 10 feet while you are not wearing armor or wielding a shield. This bonus increases when you reach certain monk levels, as shown in the Monk table. At [9th level](#level-9), you gain the ability to move along vertical surfaces and across liquids on your turn without falling during the move. 
 
-## Level 3
+## 3rd Level
 
 ### Open Hand Technique 
 
@@ -135,7 +135,7 @@ Starting at 3rd level, you can use your reaction to deflect or catch the missile
 
 If you reduce the damage to 0, you can catch the missile if it is small enough for you to hold in one hand and you have at least one hand free. If you catch a missile in this way, you can spend 1 ki point to make a ranged attack with the weapon or piece of ammunition you just caught, as part of the same reaction. You make this attack with proficiency, regardless of your weapon proficiencies, and the missile counts as a monk weapon for the attack, which has a normal range of 20 feet and a long range of 60 feet. 
 
-## Level 4
+## 4th Level
 
 ### Ability Score Improvement 
 
@@ -145,7 +145,7 @@ When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can 
 
 Beginning at 4th level, you can use your reaction when you fall to reduce any falling damage you take by an amount equal to five times your monk level. 
 
-## Level 5
+## 5th Level
 
 ### Extra Attack 
 
@@ -155,7 +155,7 @@ Beginning at 5th level, you can attack twice, instead of once, whenever you take
 
 Starting at 5th level, you can interfere with the flow of ki in an opponent’s body. When you hit another creature with a melee weapon attack, you can spend 1 ki point to attempt a stunning strike. The target must succeed on a Constitution saving throw or be stunned until the end of your next turn. 
 
-## Level 6
+## 6th Level
 
 ### Ki-Empowered Strikes 
 
@@ -165,7 +165,7 @@ Starting at 6th level, your unarmed strikes count as magical for the purpose of 
 
 At 6th level, you gain the ability to heal yourself. As an action, you can regain hit points equal to three times your monk level. You must finish a long rest before you can use this feature again. 
 
-## Level 7
+## 7th Level
 
 ### Evasion 
 
@@ -176,43 +176,43 @@ At 7th level, your instinctive agility lets you dodge out of the way of certain 
 Starting at 7th level, you can use your action to end one effect on yourself that is causing you to be charmed or frightened. 
 
 
-## Level 8
+## 8th Level
 
 ### Ability Score Improvement 
 
 When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature. 
 
-## Level 9
+## 9th Level
 
 ### Unarmored Movement Improvement
 
 At 9th level, you gain the ability to move along vertical surfaces and across liquids on your turn without falling during the move. 
 
-## Level 10
+## 10th Level
 
 ### Purity of Body 
 
 At 10th level, your mastery of the ki flowing through you makes you immune to disease and poison. 
 
-## Level 11
+## 11th Level
 
 ### Tranquility 
 
 Beginning at 11th level, you can enter a special meditation that surrounds you with an aura of peace. At the end of a long rest, you gain the effect of a sanctuary spell that lasts until the start of your next long rest (the spell can end early as normal). The saving throw DC for the spell equals 8 + your Wisdom modifier + your proficiency bonus. 
 
-## Level 12
+## 12th Level
 
 ### Ability Score Improvement 
 
 When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature. 
 
-## Level 13
+## 13th Level
 
 ### Tongue of the Sun and Moon
 
 Starting at 13th level, you learn to touch the ki of other minds so that you understand all spoken languages. Moreover, any creature that can understand a language can understand what you say. 
 
-## Level 14
+## 14th Level
 
 ### Diamond Soul 
 
@@ -220,7 +220,7 @@ Beginning at 14th level, your mastery of ki grants you proficiency in all saving
 
 Additionally, whenever you make a saving throw and fail, you can spend 1 ki point to reroll it and take the second result. 
 
-## Level 15
+## 15th Level
 
 ### Timeless Body 
 
@@ -228,13 +228,13 @@ At 15th level, your ki sustains you so that you suffer none of the frailty of ol
 
 In addition, you no longer need food or water. 
 
-## Level 16
+## 16th Level
 
 ### Ability Score Improvement 
 
 When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature. 
 
-## Level 17
+## 17th Level
 
 ### Quivering Palm 
 
@@ -242,7 +242,7 @@ At 17th level, you gain the ability to set up lethal vibrations in someone’s b
 
 You can have only one creature under the effect of this feature at a time. You can choose to end the vibrations harmlessly without using an action.
 
-## Level 18
+## 18th Level
 
 ### Empty Body 
 
@@ -250,13 +250,13 @@ Beginning at 18th level, you can use your action to spend 4 ki points to become 
 
 Additionally, you can spend 8 ki points to cast the astral projection spell, without needing material components. When you do so, you can’t take any other creatures with you. 
 
-## Level 19
+## 19th Level
 
 ### Ability Score Improvement 
 
 When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature. 
 
-## Level 20
+## 20th Level
 
 ### Perfect Self 
 

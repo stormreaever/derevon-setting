@@ -76,6 +76,18 @@ header a,footer a {
   }
 }
 
+@media screen and (max-width: 840px) {
+  header a,footer a {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  footer {
+    a.contents {
+      width:132px;
+    }
+  }
+}
+
 h1,h2,h3,h4,h5,h6 {
   font-size: 1em;
   margin: 1em 0;
@@ -177,13 +189,31 @@ blockquote {
     margin-bottom: 0;
   }
 }
+@media screen and (max-width: 840px) {
+  blockquote {
+    font-size: 15px;
+    padding: 24px;
+  }
+}
 section {
   margin-left: 48px;
+}
+
+@media screen and (max-width: 840px) {
+  section {
+    margin-left: 24px;
+  }
 }
 
 ul, ol {
   padding-left: 48px;
   position: relative;
+}
+
+@media screen and (max-width: 840px) {
+  ul, ol {
+    padding-left: 24px;
+  }
 }
 ul li { 
   list-style-type: none;
