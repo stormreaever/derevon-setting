@@ -1,7 +1,7 @@
 // FONTS
 // ------------
 $fonts-sans: "Gill Sans", Futura, sans-serif;
-$fonts-normal: cambria;
+$fonts-normal: Palatino, Cambria, serif;
 $fonts-DIN: "DIN", "DIN Alternate";
 $red: #e66;
 $black: #111;
@@ -22,7 +22,7 @@ body {
 
 article {
   font-family: $fonts-normal;
-  font-size: 22px;
+  font-size: 20px;
   line-height: 1.4;
   padding: 48px 96px;
   box-sizing: border-box;  
