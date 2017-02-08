@@ -1,12 +1,19 @@
-var chapters = ['index','overview','magic','people','places','organizations','characters'];
+const chapters = [
+  ['index','overview','magic','people','places','organizations','characters'],
+  ['classes', 'monk', 'ranger']
+];
 
 var gulp = require('gulp');
 
-var markdown   = require('gulp-markdown'),
-  sass         = require('gulp-sass'),
-  uglify       = require('gulp-uglify'),
-  tap          = require('gulp-tap'),
-  headerfooter = require('gulp-headerfooter');
+var markdown     = require('gulp-markdown'),
+    sass         = require('gulp-sass'),
+    uglify       = require('gulp-uglify'),
+    tap          = require('gulp-tap'),
+    headerfooter = require('gulp-headerfooter');
+    
+function capitalizeFirstLetter(string) {
+  return string.charAt(0).toUpperCase() + string.slice(1);
+}
 
 gulp.task('styles', function() {
   gulp.src('src/sass/**/*.scss')
@@ -33,29 +40,56 @@ gulp.task('assemblehtml', function () {
     // find correct navigation in chapters array
     .pipe(tap(function(file, t) {
       filename = file.relative.split('.')[0];
-      // var filename = people;
       
       next_chap = '';
+      next_chap_link = '';
       last_chap = '';
+      last_chap_link = '';
+      index = '';
+      index_link = '';
       
-      var chapter_id = -1;
+      let chapter_id = -1;
+      let book_id = -1;
       
-      for (var i = 0; i < chapters.length; i++) {
-        if (chapters[i] == filename) {
-          chapter_id = i;
+      // find the book and chapter id for this page
+      for (let i = 0; i < chapters.length; i++) {
+        for (let j = 0; j < chapters[i].length; j++) {
+          const this_chapter = chapters[i][j];
+          if (filename == this_chapter) {
+            book_id = i;
+            chapter_id = j;
+          }
         }
       }
-      if (chapter_id > 0) {
-        last_chap = chapters[chapter_id - 1];
-      }
-      if (chapter_id < chapters.length - 1) {
-        next_chap = chapters[chapter_id + 1];
+      
+      console.log(filename + " (" + book_id + ", " + chapter_id + ")");
+      
+      if (book_id > -1) { // if the chapter is in a book
+        // set the index chapter to be the first chapter
+        index = chapters[book_id][0];
+        index_link = index + ".html";
+        if (chapter_id > 0) { // not the first chapter
+          last_chap = chapters[book_id][chapter_id - 1];
+          last_chap_link = last_chap + ".html";
+        }
+        if (chapter_id < chapters[book_id].length - 1) { // not the last chapter
+          next_chap = chapters[book_id][chapter_id + 1];
+          next_chap_link = next_chap + ".html";
+        }
+      } else {
+        // set the index chapter to be this chapter
+        index = filename;
+        index_link = filename + ".html";
       }
       
       var contents = file.contents.toString();
-      contents = contents.replace(/{{chapter}}/g, filename);
+      contents = contents.replace(/{{chapter}}/g, capitalizeFirstLetter(filename));
       contents = contents.replace(/{{last-chap}}/g, last_chap);
+      contents = contents.replace(/{{last-chap-link}}/g, last_chap_link);
       contents = contents.replace(/{{next-chap}}/g, next_chap);
+      contents = contents.replace(/{{next-chap-link}}/g, next_chap_link);
+      contents = contents.replace(/{{index}}/g, index);
+      contents = contents.replace(/{{index-link}}/g, index_link);
       file.contents = new Buffer(contents, "utf-8");
     }))
     .pipe(gulp.dest('build'));
