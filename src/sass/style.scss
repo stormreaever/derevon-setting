@@ -127,7 +127,6 @@ h3, .h3 {
 }
 h4, .h4 {
   font-weight: bold;
-  text-transform: capitalize; 
   font-family: $fonts-normal;
   font-size: 0.9em;
 }
@@ -273,10 +272,17 @@ li {
   margin: 0.4em 0;
 }
 
-// open hand
-
+// monk open hand techniques
 #open-hand-technique, #wholeness-of-body, #tranquility, #quivering-palm {
   &:before {
     content: "✋ ";
   }
+}
+
+// ranger hunter options
+
+#hunter-s-prey, #defensive-tactics, #multiattack, #superior-hunter-s-defense {
+    &:before {
+      content: "🏹 ";
+    }
 }

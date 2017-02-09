@@ -47,25 +47,25 @@ You start with the following equipment, in addition to the equipment granted by 
 
 |Level| Prof. Bonus       | Martial Arts | Ki Points | Unarmored Movement |  Features | 
 |-----|:-----------------:|:------------:|:---------:|:------------------:|:----------|
-|1st  | +2                | 1d4          |  &mdash;  |  &mdash;           | [Unarmored Defense](#unarmored-defense), [Martial Arts](#martial-arts)
+|1st  | +2                | 1d4          |  &mdash;  |  &mdash;           | [Unarmored Defense](#unarmored-defense), [Martial&nbsp;Arts](#martial-arts)
 |2nd  | +2                | 1d4          |  2        |  +10 ft.           | [Ki](#ki), [Unarmored Movement](#unarmored-movement)
-|3rd  | +2                | 1d4          |  3        |  +10 ft.           | [Open Hand Technique](#open-hand-technique), [Deflect Missiles](#deflect-missiles)
+|3rd  | +2                | 1d4          |  3        |  +10 ft.           | [Open Hand Technique](#open-hand-technique), [Deflect&nbsp;Missiles](#deflect-missiles)
 |4th  | +2                | 1d4          |  4        |  +10 ft.           | [Ability Score Improvement](#ability-score-improvement), [Slow Fall](#slow-fall)
 |5th  | +3                | 1d6          |  5        |  +10 ft.           | [Extra Attack](#extra-attack), [Stunning Strike](#stunning-strike)
 |6th  | +3                | 1d6          |  6        |  +15 ft.           | [Ki-Empowered Strikes](#ki-empowered-strikes), [Wholeness of Body](#wholeness-of-body)
 |7th  | +3                | 1d6          |  7        |  +15 ft.           | [Evasion](#evasion), [Stillness of Mind](#stillness-of-mind)
-|8th  | +3                | 1d6          |  8        |  +15 ft.           | [Ability Score Improvement](#8th-level)
+|8th  | +3                | 1d6          |  8        |  +15 ft.           | [Ability Score Improvement](#ability-score-improvement-8)
 |9th  | +4                | 1d6          |  9        |  +15 ft.           | [Unarmored Movement Improvement](#unarmored-movement-improvement)
 |10th | +4                | 1d6          | 10        |  +20 ft.           | [Purity of Body](#purity-of-body)
 |11th | +4                | 1d8          | 11        |  +20 ft.           | [Tranquility](#tranquility)
-|12th | +4                | 1d8          | 12        |  +20 ft.           | [Ability Score Improvement](#12th-level)
+|12th | +4                | 1d8          | 12        |  +20 ft.           | [Ability Score Improvement](#ability-score-improvement-12)
 |13th | +5                | 1d8          | 13        |  +20 ft.           | [Tongue of the Sun and Moon](#tongue-of-the-sun-and-moon)
 |14th | +5                | 1d8          | 14        |  +25 ft.           | [Diamond Soul](#diamond-soul)
 |15th | +5                | 1d8          | 15        |  +25 ft.           | [Timeless Body](#timeless-body)
-|16th | +5                | 1d8          | 16        |  +25 ft.           | [Ability Score Improvement](#16th-level)
+|16th | +5                | 1d8          | 16        |  +25 ft.           | [Ability Score Improvement](#ability-score-improvement-16)
 |17th | +6                | 1d10         | 17        |  +25 ft.           | [Quivering Palm](#quivering-palm)
 |18th | +6                | 1d10         | 18        |  +30 ft.           | [Empty Body](#empty-body)
-|19th | +6                | 1d10         | 19        |  +30 ft.           | [Ability Score Improvement](#19th-level)
+|19th | +6                | 1d10         | 19        |  +30 ft.           | [Ability Score Improvement](#ability-score-improvement-19)
 |20th | +6                | 1d10         | 20        |  +30 ft.           | [Perfect Self](#perfect-self)
 
 
@@ -97,7 +97,7 @@ You can spend these points to fuel various ki features. You start knowing three 
 
 You must spend at least 30 minutes of the rest meditating to regain your ki points. Some of your ki features require your target to make a saving throw to resist the feature’s effects. The saving throw DC is calculated as follows: 
 
-*Ki save DC = 8 + your proficiency bonus + your Wisdom modifier*
+*__Ki save DC__ = 8 + your proficiency bonus + your Wisdom modifier*
 
 <section>
 

@@ -62,8 +62,6 @@ gulp.task('assemblehtml', function () {
         }
       }
       
-      console.log(filename + " (" + book_id + ", " + chapter_id + ")");
-      
       if (book_id > -1) { // if the chapter is in a book
         // set the index chapter to be the first chapter
         index = chapters[book_id][0];

@@ -1,9 +1,4 @@
 # Classes
 
-## Monk
-
-[monk](monk)
-
-## Ranger
-
-[ranger](ranger)
+- [Monk](monk)
+- [Ranger](ranger)

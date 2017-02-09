@@ -96,7 +96,6 @@ h3, .h3 {
 
 h4, .h4 {
   font-weight: bold;
-  text-transform: capitalize;
   font-family: Palatino, Cambria, serif;
   font-size: 0.9em; }
 
@@ -218,3 +217,6 @@ li {
 
 #open-hand-technique:before, #wholeness-of-body:before, #tranquility:before, #quivering-palm:before {
   content: "✋ "; }
+
+#hunter-s-prey:before, #defensive-tactics:before, #multiattack:before, #superior-hunter-s-defense:before {
+  content: "🏹 "; }
