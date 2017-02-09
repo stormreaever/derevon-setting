@@ -1,6 +1,6 @@
 const chapters = [
   ['index','overview','magic','people','places','organizations','characters'],
-  ['classes', 'monk', 'ranger']
+  ['classes', 'barbarian', 'cleric', 'monk', 'ranger', 'rogue', 'wizard']
 ];
 
 var gulp = require('gulp');
