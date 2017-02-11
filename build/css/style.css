@@ -99,6 +99,14 @@ h4, .h4 {
   font-family: Palatino, Cambria, serif;
   font-size: 0.9em; }
 
+h5, .h5 {
+  font-weight: bold;
+  font-family: "Gill Sans", Futura, sans-serif;
+  font-size: 0.75em;
+  margin: 1.3em 0; }
+  h5:after, .h5:after {
+    content: "."; }
+
 table {
   font-family: "DIN", "DIN Alternate";
   font-size: 16px;
@@ -214,6 +222,15 @@ a {
 
 li {
   margin: 0.4em 0; }
+
+pre, code {
+  font-family: "courier prime sans", consolas, monaco;
+  font-size: 90%;
+  line-height: 1.1; }
+
+pre {
+  background: #f0f0f0;
+  padding: 24px; }
 
 #open-hand-technique:before, #wholeness-of-body:before, #tranquility:before, #quivering-palm:before {
   content: "✋ "; }
