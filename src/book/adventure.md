@@ -31,19 +31,19 @@ A pack of gnolls roams the forest preying on deer, rabbits, and farm stock. Now 
 
 #### Roaming Monsters (Table 1)
 
-| roll d6| monster      | MM  |&nbsp;|
-|:------:|:-------------|----:|-|
-|1-2     | Twig Blights |  32 | want to drink the party's blood
-|3-4     | Stirges      | 284 | want a quick meal of the party's blood and will leave after a bite each
-|5       | Hyenas       | 341 | want a meal but will flee quickly (use wolf stats)
-|6       | Boar         | 319 | want to survive (but the hunter wants to kill)
+| roll d6| monster        | MM  |&nbsp;|
+|:------:|:---------------|----:|-|
+|1-2     | 6 Twig Blights |  32 | want to drink the party's blood
+|3-4     | 4 Stirges      | 284 | want a quick meal of the party's blood and will leave after a bite each
+|5       | 4 Hyenas       | 341 | want a meal but will flee quickly (use wolf stats)
+|6       | 1 Boar         | 319 | want to survive (but the hunter wants to kill)
 
 #### Gnoll Den (Table 2)
 
 | CR  | name          | MM  |&nbsp;|
 |:---:|:--------------|----:|------|
 | 1/2 | Gnoll         | 163 | |
-|  1  | Gnoll Cultist | 163 | leader of the group. gnoll + 2 spells
+|  1  | Gnoll Cultist | 163 | leader of the group. Gnoll with spells
 | 1/4 | Hyena         | 341 | (use wolf stats)
 
 ### The Aldermeeting
