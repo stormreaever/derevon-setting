@@ -1,6 +1,7 @@
 const chapters = [
   ['index','overview','magic','people','places','organizations','characters'],
-  ['classes', 'barbarian', 'cleric', 'monk', 'ranger', 'rogue', 'wizard']
+  ['classes', 'barbarian', 'cleric', 'monk', 'ranger', 'rogue', 'wizard'],
+  ['adventure', 'broken-tower', 'gnoll-attack']
 ];
 
 var gulp = require('gulp');
@@ -81,12 +82,12 @@ gulp.task('assemblehtml', function () {
       }
       
       var contents = file.contents.toString();
-      contents = contents.replace(/{{chapter}}/g, capitalizeFirstLetter(filename));
-      contents = contents.replace(/{{last-chap}}/g, last_chap);
+      contents = contents.replace(/{{chapter}}/g, capitalizeFirstLetter(filename.replace("-", " ")));
+      contents = contents.replace(/{{last-chap}}/g, last_chap.replace("-", " "));
       contents = contents.replace(/{{last-chap-link}}/g, last_chap_link);
-      contents = contents.replace(/{{next-chap}}/g, next_chap);
+      contents = contents.replace(/{{next-chap}}/g, next_chap.replace("-", " "));
       contents = contents.replace(/{{next-chap-link}}/g, next_chap_link);
-      contents = contents.replace(/{{index}}/g, index);
+      contents = contents.replace(/{{index}}/g, index.replace("-", " "));
       contents = contents.replace(/{{index-link}}/g, index_link);
       file.contents = new Buffer(contents, "utf-8");
     }))
