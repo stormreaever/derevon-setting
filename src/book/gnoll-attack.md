@@ -230,6 +230,54 @@ If they show the signet ring or banner to knowledgeable people in town, they wil
 
 ## Stat Blocks
 
+## Hunter
+
+*Medium human, lawful neutral*
+
+__Armor Class__ 13   
+__Hit Points__ 15 (2d10)  
+__Speed__ 30 ft. 
+
+| STR | DEX | CON | INT | WIS | CHA |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+|  13 (+1) | 14 (+2) | 12 (+1) | 10 (+0) | 10 (+0) | 10 (+0) 
+
+__Skills__ Survival +2, Nature + 2, Perception +2  
+__Senses__ passive Perception 12  
+__Languages__ Common
+
+### Features
+
+__Natural Explorer: Forest.__ When you make an  Intelligence or Wisdom check related to your  favored terrain, your proficiency bonus is doubled if  you are using a skill that you&rsquo;re proficient in. 
+
+While traveling for an hour or more in your favored terrain, you gain the following benefits: 
+
+- Difficult terrain doesn&rsquo;t slow your group&rsquo;s travel. 
+- Your group can&rsquo;t become lost except by magical means. 
+- Even when you are engaged in another activity while traveling (such as foraging, navigating, or tracking), you remain alert to danger. 
+- If you are traveling alone, you can move stealthily at a normal pace. 
+- When you forage, you find twice as much food as you normally would. 
+- While tracking other creatures, you also learn their exact number, their sizes, and how long ago  they passed through the area. 
+
+
+### Actions 
+
+__Crossbow.__ Ranged Weapon Attack: +4 to hit, range 80/320 ft, loading, two-handed.  
+Hit: 1d8 + 2 piercing damage.
+
+__Shortsword.__ Melee Weapon Attack: +4 to hit, reach 5 ft., finesse, light.  
+Hit: 1d6 + 2 piercing damage. 
+
+### Equipment
+
+- Leather Armor
+- Crossbow
+- Quiver with 20 crossbow bolts
+- Shortsword
+
+
+> The following text contains content from System Reference Document 5.1 licensed under the [Open Game License](ogl.html).
+
 ## Blink Dog
 
 *Medium fey, lawful good*  
@@ -245,7 +293,7 @@ __Speed__ 40 ft.
 
 __Skills__ Perception +3, Stealth +5 
 __Senses__ passive Perception 13 
-__Languages__ Blink Dog, understands Sylvan but can’t speak it 
+__Languages__ Blink Dog, understands Sylvan but can&rsquo;t speak it 
 __Challenge__ 1/4 (50 XP) 
 
 ### Features
@@ -336,7 +384,7 @@ __Speed__ 30 ft.
 
 __Senses__ darkvision 60 ft., passive Perception 10  
 __Languages__ Gnoll  
-__Challenge__ 1 (20 XP) 
+__Challenge__ 1 (200 XP) 
 
 ### Features
 
@@ -368,11 +416,11 @@ __Ray of Sickness (1st level necromancy spell).__ Casting time: 1 action; Range:
 
 A ray of sickening green energy lashes out towards a creature. +3 to hit, range 60 feet. 
 
-Hit: 2d8 poison damage, and target must make a Constitution saving throw (DC 13). On a failed save it is poisoned until the end of its next turn. (A poisoned creature has disadvantage on all attack rolls and ability checks.)
+Hit: 2d8 poison damage, and target must make a Constitution saving throw (DC 12). On a failed save it is poisoned until the end of its next turn. (A poisoned creature has disadvantage on all attack rolls and ability checks.)
 
-__Tasha's Hideous Laughter (1st level enchantment spell).__ Casting time: 1 action; Range: 30 feet; Components: V, S, M (a feather waved in the air); duration: concentration, up to 1 minute
+__Hideous Laughter (1st level enchantment spell).__ Casting time: 1 action; Range: 30 feet; Components: V, S, M (a feather waved in the air); duration: concentration, up to 1 minute
 
-A creature that you can see falls into fits of laughter if this spell affects it. Target must succeed on a Wisdom saving throw (DC 13) or fall prone, becoming incapacitated and unable to stand up. 
+A creature that you can see falls into fits of laughter if this spell affects it. Target must succeed on a Wisdom saving throw (DC 12) or fall prone, becoming incapacitated and unable to stand up. 
 
 At the end of its turn and each time it takes damage the target can make another Wisdom saving throw. The creature has advantage if the saving throw was triggered by damage. 
 
@@ -400,7 +448,7 @@ __Challenge__ 0 (10 XP)
 
 ### Features
   
-__Pack Tactics.__ The hyena has advantage on an attack roll against a creature if at least one of the hyena’s allies is within 5 feet of the creature and the ally isn’t  incapacitated. 
+__Pack Tactics.__ The hyena has advantage on an attack roll against a creature if at least one of the hyena&rsquo;s allies is within 5 feet of the creature and the ally isn&rsquo;t  incapacitated. 
 
 ### Actions 
 
@@ -451,7 +499,7 @@ __Challenge__ 1/8 (25 XP)
 
 ### Actions 
 
-__Blood Drain.__ Melee Weapon Attack: +5 to hit, reach 5  ft., one creature. Hit: 1d4 + 3 piercing damage, and  the stirge attaches to the target. While attached, the  stirge doesn’t attack. Instead, at the start of each of the stirge’s turns, the target loses 1d4 + 3 hit points  due to blood loss. 
+__Blood Drain.__ Melee Weapon Attack: +5 to hit, reach 5  ft., one creature. Hit: 1d4 + 3 piercing damage, and  the stirge attaches to the target. While attached, the  stirge doesn&rsquo;t attack. Instead, at the start of each of the stirge&rsquo;s turns, the target loses 1d4 + 3 hit points  due to blood loss. 
 
 The stirge can detach itself by spending 5 feet of its movement. It does so after it drains 10 hit points of  blood from the target or the target dies. A creature,  including the target, can use its action to detach the stirge. 
 
