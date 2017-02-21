@@ -98,6 +98,12 @@ Gnoll dens are a network of tunnels that open into larger communal areas. Tunnel
 
 Gnolls raise and keep hyenas in their den. They sleep in different areas. Gnolls and hyenas are nocturnal and have darkvision so the den has no light source.
 
+##### Long Rests
+
+If the PCs go back to town for a long rest the cultist will attempt to resurrect the other dead gnolls. In order to do this, the gnolls must sacrifice a human to their demon god. So if there is at least 1 other gnoll still alive, they and the cultist will go to a farm and kill some cows and kidnap a child for the ritual. The next day, 1d4+1 gnolls will be revived as Zombie Gnolls. 
+
+The PCs will learn about this in town. A farm lady will knock on their door and tell them that her son was kidnapped in the night by gnolls. Now the PCs have to rescue her son as well. 
+
 ![Map of Gnoll Den](img/adv-1-gnoll-den-map.png)
     
 ##### Entrance
@@ -187,6 +193,8 @@ There's a pile of rocks against a wall and the floor is marked with a subtle mag
 An evil-looking altar.
 
 A religion DC 15 success will discover that it's an altar for sacrifice to the demon lord Yeenoghu. Herbs and stuff are all around, and markings in blood on the walls. Scrolls of dark magic. 
+
+If the gnolls have kidnapped the farm kid, he will be manacled in here to the wall. He is unconscious, but alive, wearing his normal clothes. He has long slits on his arms from the resurrection ritual. 
 
 ##### Gnoll Living (2)
 
@@ -429,6 +437,38 @@ At the end of its turn and each time it takes damage the target can make another
 - Wooden staff with a symbol of Yeenoghu (the cultist's casting focus) tied on
 - Hide armor
 - a magic dagger (+1 to hit, +1d4 necrotic damage)
+
+## Gnoll Zombie
+
+*Medium undead (gnoll), neutral evil*
+ 
+__Armor Class__ 8  
+__Hit Points__ 22 (3d8 + 9)  
+__Speed__ 20 ft. 
+
+| STR | DEX | CON | INT | WIS | CHA |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| 13 (+1) | 6 (-2) | 16 (+3) | 3 (-4) | 6 (-2) | 5 (-3) 
+
+__Saving Throws__ Wis +0  
+__Damage Immunities__ poison  
+__Condition Immunities__ poisoned   
+__Senses__ darkvision 60 ft., passive Perception 8  
+__Languages__ understands Gnoll but can&rsquo;t speak  
+__Challenge__ 1/4 (50 XP) 
+
+### Features
+
+__Undead Fortitude.__ If damage reduces the zombie to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the zombie drops to 1 hit point instead. 
+
+### Actions 
+
+__Slam.__ Melee Weapon Attack: +3 to hit, reach 5 ft., one  target.  
+Hit: 4 (1d6 + 1) bludgeoning damage.  
+
+### Equipment
+
+- ragged clothes
 
 ## Hyena
 *Medium beast, unaligned*
