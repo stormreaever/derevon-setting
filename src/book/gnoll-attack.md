@@ -14,14 +14,23 @@ Bryder has woods to the south and is supported by the surrounding farmland (most
 
 Bryder's government is a direct democracy. Every week the village has a communal meeting where residents are free to bring up issues. The Alderman  will present options on what to do and tally the votes.
 
+#### Shops
+
+Only items in the PHB worth 10 gp or less are available for purchase in Bryder. 
+
 #### NPCs
 
 - The Alderman (M)
+  - wants order in the village
 - The Hunter (M)
   - has a pet Blink Dog (MM 318) that he brings along on the hunt.
+  - wants to protect his family (wife and daugter)
 - The Carpenter (F)
+  - wants justice
 - The Blacksmith (M)
+  - wants the easy way
 - Village Elder (F)
+  - wants to be remembered
 
 #### The Gnolls
 

@@ -13,3 +13,13 @@
   A monastery in the forest used to be a wilderness outpost, but it was taken over by orcs years ago. In an effort to spread his domain and take back the wilderness, the Baron sees the monastery as a key strategic point and asks the party to take it back for him. 
   
   The monastery main levels are overrun with Orcs... but even the Orcs know not to investigate the incessant thumping noises in the basement. One the party has cleared the top level, they have the opportunity to open up the cellar and take on the ghouls below. 
+  
+## Hooks
+
+- amulet of immortality lost in wilds
+- explorer comes back from mountains Different
+  - he was replaced by a shapeshifter
+- caravan transporting dragonborn egg to duke
+- wizard using tower to research travel to astral plane to unlock ultimate magic power
+- quest for a magic spellbook
+  - then quest for ingredients in that spellbook to make things that you want
