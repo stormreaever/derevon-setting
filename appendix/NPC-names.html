@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Name Generator</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+  body {
+    text-align: center;
+    margin: 80px 0;
+    font-family: "Gill Sans", Futura, "Futura LT", sans-serif;
+    line-height: 1.4;
+  }
+  button {
+    background: #f2f2f3;
+    border: none;
+    -webkit-appearance: none;
+    padding: 20px 40px;
+    border-radius: 4px;
+    font-family: "DIN", "DIN Alternate";
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 1px;
+  }
+  button:hover {
+    background: #ededef;
+  }
+  button:focus {
+    outline-color: #e66;
+    outline: none;
+  }
+  button:active {
+    background: #e6e6e9;
+  }
+  h1 {
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-top: 80px;
+  }
+  h2 {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: normal;
+    letter-spacing: 2px;
+    margin: 40px 0;
+  }
+  </style>
+
+</head>
+<body>
+
+<button id="generate">Generate Person</button>
+
+<h1 id="name">Name</h1>
+<h2 id="job">Profession</h2>
+
+
+<script>
+// male names
+const manNames = ["Jonas", "Adney", "Aldis", "Atton", "Audric", "Barden", "Barric", "Bayard", "Benton", "Bolton", "Braddon", "Bowan", "Brenner", "Burleigh", "Burdan", "Caldell", "Carnell", "Cassan", "Cederic", "Chaucey", "Colton", "Colby", "Cranley", "Dannar", "Dalton", "Darden", "Eason", "Ednar", "Edrick", "Eldon", "Edmund", "Galoran", "Garman", "Garrett", "Garrick", "Garridan", "Garroway", "Gerard", "Hadden", "Haelan", "Hammond", "Harding", "Hearst", "Hunter", "Hyde", "Irving", "Irwin", "Jackron", "Jarinon", "Jeffrey", "Keaton", "Keldon", "Lander", "Landon", "Lanford", "Leland", "Lyman", "Manning", "Manchard", "Marden", "Meldon", "Mendel", "Moreland", "Neal", "Oakes", "Pierson", "Padran", "Quenlan", "Radley", "Randall", "Raylan", "Rhett", "Rhys", "Rinnard", "Ricker", "Roldan", "Royston", "Rudyard", "Rylan", "Sherdan", "Spaldan", "Sterlan", "Stewar", "Tadden", "Ulmer", "Unwin", "Upton", "Walden", "Zarren", "Warrick", "Waylon", "Weslan", "Willard", "Wildan", "Witton", "Yates"];
+
+// female names
+const femNames = ["Kendra", "Leina", "Malin", "Maven", "Penna", "Adena", "Agnes", "Alcia", "Alinora", "Alna", "Alison", "Amira", "Aravelle", "Anne", "Anora", "Ava", "Avelyn", "Beatrice", "Bella", "Breya", "Cassa", "Cassanara", "Calena", "Cilia", "Cristana", "Clara", "Dannara", "Decima", "Dianna", "Edda", "Elena", "Eleanor", "Eliza", "Emaline", "Emma", "Eva", "Eve", "Evette", "Flora", "Gillian", "Gwen", "Grace", "Greta", "Helena", "Helna", "Idra", "Indra", "Irabel", "Jenna", "Joranna","Kinna", "Lavenna", "Lena", "Lucia", "Meagan", "Margot", "Maria", "Marion", "Marina", "Monda", "Milla", "Mia", "Olivia", "Ravenna", "Rayne", "Raina", "Rose", "Sara", "Shanna", "Stana", "Tara", "Tiana", "Tura", "Thiara", "Ruby", "Sappire", "Vetta", "Freya", "Maya"];
+
+// job list
+const villageJobs = [ "Animal Handler", "Herbalist", "Baker", "Barkeep", "Blacksmith", "Butcher", "Carpenter", "Chandler", "Counselor", "Cowherd", "Farmer", "Fisherman", "Guardsman", "Hunter", "Shepherd", "Stablehand", "Tanner", "Labourer", "Weaver", "Elder", "Druid" ];
+
+const townJobs = ["Advocate", "Advisor", "Animal handler", "Apothecary", "Baker", "Barkeep", "Blacksmith", "Bookseller", "Brewer", "Bricklayer", "Brothel keeper", "Buccaneer", "Butcher", "Caravanner", "Carpenter", "Cartographer", "Chandler", "Chef", "Clock maker", "Cobbler", "Cook", "Counselor", "Courtesan", "Courtier", "Cowherd", "Dancer", "Diplomat", "Distiller", "Diver", "Farmer", "Fisherman", "Gardener", "General", "Gladiator", "Glovemaker", "Goldsmith", "Grocer", "Guardsman", "Guildmaster", "Hatmaker", "Healer", "Herald", "Herbalist", "Hermit", "Historian", "Hunter", "Ice seller", "Innkeeper", "Inventor", "Jailer", "Jester", "Jeweler", "Judge", "Knight", "Lady", "Leatherworker", "Librarian", "Locksmith", "Lord", "Lumberjack", "Mason", "Masseur", "Merchant", "Messenger", "Midwife", "Miller", "Miner", "Minister", "Minstrel", "Monk", "Mortician", "Necromancer", "Noble", "Nun", "Nurse", "Officer", "Painter", "Patissier", "Perfumer", "Philosopher", "Physician", "Pilgrim", "Potter", "Priest", "Privateer", "Professor", "Roofer", "Ropemaker", "Rugmaker", "Saddler", "Sailor", "Scabbard maker", "Sculptor", "Scavenger", "Scholar", "Seamstress", "Servant", "Shaman", "Shepherd", "Ship's captain", "Silversmith", "Slave", "Slaver", "Smith", "Soldier", "Spice Merchant", "Squire", "Stablehand", "Stevedore", "Stonemason", "Steward", "Street seller", "Street sweeper", "Student", "Surgeon", "Surveyor", "Sailor", "Tanner", "Tax collector", "Teacher", "Thatcher", "Thief", "Torturer", "Town crier", "Toymaker", "Vendor", "Veterinarian", "Vintner", "Weaver", "Wetnurse", "Woodcarver", "Wood seller", "Wrestler", "Writer"];
+
+const cityJobs = ["Actor", "Advocate", "Advisor", "Animal handler", "Apothecary", "Architect", "Archivist", "Armorer", "Astrologer", "Baker", "Banker", "Barber", "Barkeep", "Blacksmith", "Bookseller", "Brewer", "Bricklayer", "Brothel keeper", "Buccaneer", "Butcher", "Caravanner", "Carpenter", "Cartographer", "Chandler", "Chef", "Clock maker", "Cobbler", "Cook", "Counselor", "Courtesan", "Courtier", "Cowherd", "Dancer", "Diplomat", "Distiller", "Diver", "Farmer", "Fisherman", "Fishmonger", "Gardener", "General", "Gladiator", "Glovemaker", "Goldsmith", "Grocer", "Guardsman", "Guildmaster", "Hatmaker", "Healer", "Herald", "Herbalist", "Hermit", "Historian", "Hunter", "Ice seller", "Innkeeper", "Inventor", "Jailer", "Jester", "Jeweler", "Judge", "Knight", "Lady", "Leatherworker", "Librarian", "Linguist", "Locksmith", "Lord", "Lumberjack", "Mason", "Masseur", "Merchant", "Messenger", "Midwife", "Miller", "Miner", "Minister", "Minstrel", "Monk", "Mortician", "Necromancer", "Noble", "Nun", "Nurse", "Officer", "Painter", "Patissier", "Perfumer", "Philosopher", "Physician", "Pilgrim", "Potter", "Priest", "Privateer", "Professor", "Roofer", "Ropemaker", "Rugmaker", "Saddler", "Sailor", "Scabbard maker", "Sculptor", "Scavenger", "Scholar", "Seamstress", "Servant", "Shaman", "Shepherd", "Ship's captain", "Silversmith", "Slave", "Slaver", "Smith", "Soldier", "Spice Merchant", "Squire", "Stablehand", "Stevedore", "Stonemason", "Steward", "Street seller", "Street sweeper", "Student", "Surgeon", "Surveyor", "Sailor", "Tanner", "Tax collector", "Teacher", "Thatcher", "Thief", "Torturer", "Town crier", "Toymaker", "Vendor", "Veterinarian", "Vintner", "Weaver", "Wetnurse", "Woodcarver", "Wood seller", "Wrestler", "Writer"];
+
+const races = ["human", "human", "human", "human", "half-elf"];
+
+document.getElementById("generate").addEventListener("click", function(){
+
+  // genarate random name
+  const gender = rand(0,1);
+  let randomName = "";
+  if (gender == 0) { // 0 is a man
+    console.log("man");
+    randomName = manNames[rand(0,manNames.length-1)];
+  } else { // 1 is a woman
+    console.log("woman");
+    randomName = femNames[rand(0,femNames.length-1)];
+  }
+    document.getElementById("name").innerHTML = randomName;
+
+  // generate random profession
+  randomJob = villageJobs[rand(0,villageJobs.length-1)];
+    document.getElementById("job").innerHTML = randomJob;
+
+});
+
+function rand(low,high) {
+  return Math.floor((Math.random() * (high + 1)) + low);
+}
+</script>
+
+</body>
+</html>
