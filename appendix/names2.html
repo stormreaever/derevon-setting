@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Name Generator</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="generators.css" rel="stylesheet" />
+
+</head>
+<body>
+
+<button id="generate">Generate</button>
+
+<h1 id="name">Name</h1>
+<h2 id="gender">Gender</h2>
+
+
+<script>
+
+const replacements = {
+  "[c]"     : ["b", "d", "f", "l", "m", "n", "r", "s", "t", "&eth;"],
+  "[cinit]" : ["b", "c", "d", "f", "g", "j", "l", "m", "n", "p", "r", "s", "t", "&thorn;", "v", "w"],
+  "[cend]"  : ["c", "d",  "l", "m", "n", "r", "s", "t", "&thorn;"],
+  "[v]"     : ["a", "e", "i", "o"],
+  "[wv]"    : ["a", "i", "ia", "ana"],
+  
+  "[metastart]" : ["[cinit][v][c]","[v][c]"],
+  "[manend]"    : ["[c][v][cend]", "[v][cend]"],
+  "[womanend]"  : ["[v][cend][wv]", "[v][cend][wv]", "an"]
+};
+
+// main body
+
+document.getElementById("generate").addEventListener("click", function(){
+  
+  // generate random name
+  const gender = rand(0,1);
+  // const gender = 0;
+  let randomName = "";
+  if (gender == 0) { // 0 is a man
+    document.getElementById("gender").innerHTML = "man";
+    randomName = constructName("man");
+  } else { // 1 is a woman
+    document.getElementById("gender").innerHTML = "woman";
+    randomName = constructName("woman");
+  }
+  
+  //randomName = constructName();
+  
+  document.getElementById("name").innerHTML = randomName;
+  
+});
+
+
+function constructName(gender) {
+  let constrNme = "";
+  let pattern = "error";
+  
+  // meta pattern depends on gender
+  if (gender == "man") {
+    pattern = "[metastart][manend]";
+  } else {
+    pattern = "[metastart][womanend]";
+  }
+
+  constrNme += replacePattern(pattern);
+  
+  return constrNme;
+}
+
+function replacePattern(pattern) {
+  let oldPattern = "";
+  while(oldPattern != pattern) {
+    oldPattern = pattern; 
+    
+    for (particle in replacements) {
+      // console.log(particle);
+      // console.log(replacements[particle][0]);
+      let randomPart = replacements[particle][rand(0,replacements[particle].length-1)];
+      
+      pattern = pattern.replace(particle, randomPart);
+    }
+  }
+  
+  return pattern;
+}
+
+// utlity rng function
+function rand(low,high) {
+  return Math.floor((Math.random() * (high + 1)) + low);
+}
+</script>
+
+</body>
+</html>
+
+  

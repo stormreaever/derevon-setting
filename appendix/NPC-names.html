@@ -3,50 +3,7 @@
 <head>
   <title>Name Generator</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <style>
-  body {
-    text-align: center;
-    margin: 80px 0;
-    font-family: "Gill Sans", Futura, "Futura LT", sans-serif;
-    line-height: 1.4;
-  }
-  button {
-    background: #f2f2f3;
-    border: none;
-    -webkit-appearance: none;
-    padding: 20px 40px;
-    border-radius: 4px;
-    font-family: "DIN", "DIN Alternate";
-    text-transform: uppercase;
-    font-size: 12px;
-    letter-spacing: 1px;
-  }
-  button:hover {
-    background: #ededef;
-  }
-  button:focus {
-    outline-color: #e66;
-    outline: none;
-  }
-  button:active {
-    background: #e6e6e9;
-  }
-  h1 {
-    text-transform: uppercase;
-    font-size: 22px;
-    font-weight: bold;
-    letter-spacing: 2px;
-    margin-top: 80px;
-  }
-  h2 {
-    text-transform: uppercase;
-    font-size: 16px;
-    font-weight: normal;
-    letter-spacing: 2px;
-    margin: 40px 0;
-  }
-  </style>
+  <link href="generators.css" rel="stylesheet" />
 
 </head>
 <body>
@@ -54,6 +11,7 @@
 <button id="generate">Generate Person</button>
 
 <h1 id="name">Name</h1>
+<h2 id="trait">Attitude</h2>
 <h2 id="job">Profession</h2>
 
 
@@ -73,9 +31,79 @@ const cityJobs = ["Actor", "Advocate", "Advisor", "Animal handler", "Apothecary"
 
 const races = ["human", "human", "human", "human", "half-elf"];
 
-document.getElementById("generate").addEventListener("click", function(){
+const consonants = ["d", "r", "n", "s", "k"];
+const vowels = ["a", "e", "i", "ei"];
+const replacements = {
+  "[c]"     : ["d","k","l","m","n","r","r","s","th"],
+  "[v]"     : ["a", "e", "i","o"],
+  "[startC]": ["b","h","dr","br","dr","g","f","fr","fl","gr","gl","qu","p","pr","v","sh","j","t","z"],
+  "[endC]"  : ["lt","nd","ng","rd","rn","rm","rk", "y"],
+  
+  "[metastart]" : ["[c]","[c]","[startC]","","",""],
+  "[metamiddle]" : ["[v]"],
+  "[metaend]" : ["[c]","[c]","[endC]","","",""],
+  
+  "[vowel]" : ["a","e","i","o","u","a"],
+  
+  "[easystart]" : ["An","Pel","Tan","Ab","Ok","Rem","Dal","Dir","Lan","Nol","Col","Cor","Er","Quar","Hoff","Vel","Ed", "Gar", "Al"],
+  "[easymid]" : ["a","e","o","","","",""],
+  
+  "[easyend]" : ["dar","on","del","nor","rey","ram","ran","ric","ver","em","mand","na","by", "ra","ig","lon","mon","ek","nel","us","yme","val","[vowel]","dar"],
+};
 
-  // genarate random name
+const traits = ["Angry", "Impatient", "Friendly", "Talkative", "Polite", "Worshipful", "Creepy", "Racist", "Oily", "Conniving", "Flirtatious", "Scheming", "Impolite", "Grumpy", "Flamboyant", "Egotistical", "Rude", "Happy", "Bored", "Disinterested", "Suspicious", "Frightened", "Paranoid"];
+
+function buildPattern() {
+  // outputs something that starts with either c, startc, or nothing, has a vowel, and ends with either c, endc, or nothing
+  
+  const setting = 1;
+  
+  if (setting == 1) {
+    newPattern = "[easystart][easymid][easyend]";
+  } else {
+    newPattern = "[metastart][metamiddle][metaend]";
+  }
+  
+  return newPattern;
+  
+}
+
+function replacePattern(pattern) {
+  let oldPattern = "";
+  while(oldPattern != pattern) {
+    oldPattern = pattern; 
+    
+    for (particle in replacements) {
+      // console.log(particle);
+      // console.log(replacements[particle][0]);
+      let randomPart = replacements[particle][rand(0,replacements[particle].length-1)];
+      
+      pattern = pattern.replace(particle, randomPart);
+    }
+  }
+  
+  return pattern;
+}
+
+function constructName() {
+  let constrNme = "";
+  
+  // build syllable 1
+  // pick a random pattern
+  // pick a random number of letters
+  nmeLetters = rand(2,4);
+  
+  //while (constrNme.length < nmeLetters) {
+    constrNme += replacePattern(buildPattern());
+  //}
+  
+  return constrNme;
+}
+
+document.getElementById("generate").addEventListener("click", function(){
+  
+
+  // generate random name
   const gender = rand(0,1);
   let randomName = "";
   if (gender == 0) { // 0 is a man
@@ -85,11 +113,20 @@ document.getElementById("generate").addEventListener("click", function(){
     console.log("woman");
     randomName = femNames[rand(0,femNames.length-1)];
   }
+  
+  
+  //randomName = constructName();
+  
     document.getElementById("name").innerHTML = randomName;
 
   // generate random profession
   randomJob = villageJobs[rand(0,villageJobs.length-1)];
     document.getElementById("job").innerHTML = randomJob;
+    
+  // generate random personality trait
+  randomTrait = traits[rand(0,traits.length-1)];
+    document.getElementById("trait").innerHTML = randomTrait;
+  
 
 });
 

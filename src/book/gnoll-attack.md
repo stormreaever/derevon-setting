@@ -20,16 +20,35 @@ Only items in the PHB worth 10 gp or less are available for purchase in Bryder.
 
 #### NPCs
 
-- The Alderman (M)
+##### The Alderman
+
+Joran (M) Human.
+
   - wants order in the village
-- The Hunter (M)
+  
+##### The Hunter
+
+Donnec (M) Human.
+
   - has a pet Blink Dog (MM 318) that he brings along on the hunt.
   - wants to protect his family (wife and daugter)
-- The Carpenter (F)
+  
+##### The Carpenter
+
+Merana (F) Human.
+
   - wants justice
-- The Blacksmith (M)
+  
+##### The Blacksmith
+
+Taslom (M) Human.
+
   - wants the easy way
-- Village Elder (F)
+  
+##### Village Elder 
+
+Ora&eth;ana (F) Half-elf.
+
   - wants to be remembered
 
 #### The Gnolls
@@ -79,7 +98,7 @@ The hunter says they should find the gnoll den and wipe them out -- he will lead
 
 If the party seems reluctant to help out, a teen girl (name of Stabler) will volunteer and hopefully spark their sense of duty. If they still don't volunteer, the Hunter will scoff and insult the honor of the residents of Bryder. 
 
-The PCs are free to ask the hunter for details and villagers for supplies as they head out. The smith offers his finest sword (a *masterwork shortsword*) to the PCs. An elder tells them of encounters she had with gnolls long ago, and offers a protective *amulet*. She mentions that gnolls are noctural. The hunter warns of other dangers in the forest and those who are village residents share their knowledge of the surrounding area (written in their hand-out notes with the character).
+The PCs are free to ask the hunter for details and villagers for supplies as they head out. The smith offers his finest sword (a [masterwork shortsword](#masterwork-shortsword)) to the PCs. An elder tells them of encounters she had with gnolls long ago, and offers a [protective amulet](#protective-amulet). She mentions that gnolls are noctural. The hunter warns of other dangers in the forest and those who are village residents share their knowledge of the surrounding area (written in their hand-out notes with the character).
 
 ### The Woods
 
@@ -93,9 +112,9 @@ The hunter leads the party through the woods to the place where he killed the gn
 
 #### The Gnoll's Body
 
-This is the clearing where the hunter killed the gnoll. Its dead body lays on the ground. It has some arrows (from the hunting party) sticking out of it and some wolfy bite marks. Its own bow is lying close to the body. 
+This is the clearing where the hunter killed the gnoll. Its dead body lays on the ground. It has some arrows (from the hunting party) sticking out of it and some wolfy bite marks. [Its own bow](#gnoll-bow) is lying close to the body. 
 
-The Hunter points out the gnoll's trail into the woods and leaves the party there. He tells them explicity that their goal is to find the gnoll den and eliminate the gnolls. Then he gives them something he was holding back: some healing potions. 
+The Hunter points out the gnoll's trail into the woods and leaves the party there. He tells them explicity that their goal is to find the gnoll den and eliminate the gnolls. Then he gives them something he was holding back: some [healing potions](#healing-potion). 
 
 If the PCs follow the gnoll's trail they will shortly find the entrance to the gnoll den.
 
@@ -128,11 +147,11 @@ If the PCs wait at the entrance for 2 hours, they will spot the guard making his
 A small room for the guard to recharge. 
 
 It contains:
-- a finely crafted dagger (masterwork, +1)
-- a broken shield
+- a [finely crafted mace](#fine-mace)
+- a broken wooden shield
 - 2d6 broken arrows
 - a scrap of an emblazoned blue banner (INT check reveals it's from the neighbouring Barony of Arramon; this is obvious to the traveler from Arramon)
-- a crude set of dice
+- a crude pair of wooden dice
 - a pile of blood-soaked rags
 
 ##### Hallway
@@ -245,7 +264,7 @@ If they show the signet ring or banner to knowledgeable people in town, they wil
 
 
 
-## Stat Blocks
+# Stat Blocks
 
 ## Hunter
 
@@ -332,7 +351,7 @@ __Hit Points__ 22 (5d8)
 __Speed__ 30 ft. 
 
 | STR | DEX | CON | INT | WIS | CHA |
-|:---:|:---:|:---:|:---:|:---:|:---:|
+<!-- |:---:|:---:|:---:|:---:|:---:|:---:| -->
 | 14 (+2) | 12 (+1) | 11 (+0) | 6 (-2) | 10 (+0) | 7 (-2) 
 
 __Senses__ darkvision 60 ft., passive Perception 10  
@@ -566,7 +585,7 @@ __Speed__ 40 ft.
 
 __Senses__ passive Perception 9  
 __Languages__ &mdash;  
-__Challenge__ 1/4 (50 XP) 
+__Challenge__ 1/4 (50 XP)
   
 __Charge.__ If the boar moves at least 20 feet straight  toward a target and then hits it with a tusk attack on the same turn, the target takes an extra 3 (1d6)  slashing damage. If the target is a creature, it must  succeed on a DC 11 Strength saving throw or be  knocked prone. 
 
@@ -575,3 +594,81 @@ __Relentless *(Recharges after a Short or Long Rest).*__ If  the boar takes 7 da
 ### Actions   
 
 __Tusk.__ Melee Weapon Attack: +3 to hit, reach 5 ft., one  target. Hit: 1d6 + 1 slashing damage. 
+
+# Treasure
+
+## The Aldermeeting
+
+### masterwork shortsword
+
+### protective amulet
+
+## The Woods
+
+### Gnoll Bow
+
+### Healing Potion
+
+## Dungeon
+
+### Fine Mace
+
+A finely crafted mace. It is elegantly shaped and is inlaid silver and brass details. 
+
+#### Simple Melee Weapon
+
+__Damage:__ 1d6 bludgeoning  
+__Weight:__ 4 lb.  
+__Properties:__ &mdash;
+
+#### Secret Stuff
+
+
+
+
+### a scrap of an emblazoned blue banner (INT check reveals it's from the neighbouring Barony of Arramon; this is obvious to the traveler from Arramon)
+
+
+- remains of wild boar
+- sharp sticks
+- a rusted short sword
+- a small pile of shiny treasure
+  - 40 copper pieces
+  - 120 silver pieces
+  - a chain shirt
+  - a pair of gauntlets, with hands still inside
+
+
+- a pile of rags
+- fancy bracers
+- a scrap of soft blue cloth
+- empty arrow quiver
+- a diamond
+
+
+- piles of rags
+- crude dice
+- 30 copper pieces
+- 7 gold pieces
+
+
+- ivory small bracelet
+- elaborate quilt
+- 6 bottles of wine from the Barony of Arramon
+- a silver flute
+- a Belt of Quickness (+1 dex, +10 ft to speed)
+- a magic longbow (+1)
+- a pile of coins and gems
+  - 70 copper pieces
+  - 12 silver pieces
+  - 38 gold pieces
+  - 3 rubies
+  
+  
+- a pile of rags
+- sticks
+- rabbit fur
+- broken comb
+- signet ring 
+
+from Barony of Arramon
