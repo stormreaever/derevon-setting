@@ -1,0 +1,78 @@
+# Resources
+
+> The following text is content from System Reference Document 5.1 licensed under the [Open Game License](ogl.html).
+
+## Combat Actions
+
+
+## Skills
+
+## Equipment
+
+### Armour
+
+| Armour            | Cost   | AC                        | Strength | Stealth      | Weight  |
+|:------------------|-------:|:--------------------------|:--------:|:------------:|--------:|
+| __Light Armour__  |        |                           |          |              |         |
+| Padded            | 5 gp   |   | 11 + Dex modifier         | &mdash;  | Disadvantage | 8 lbs.  |
+| Leather           | 10 gp  |  | 11 + Dex modifier         | &mdash;  | &mdash;      | 10 lbs. |
+| Studded Leather   | 45 gp  |  | 12 + Dex modifier         | &mdash;  | &mdash;      | 13 lbs. |
+| __Medium Armour__ |        |                           |          |              |         |
+| Hide              | 10 gp  |  | 12 + Dex modifier (max 2) | &mdash;  | &mdash;      | 12 lbs. |
+| Chain Shirt       | 50 gp  |  | 13 + Dex modifier (max 2) | &mdash;  | &mdash;      | 20 lbs. |
+| Scale Mail        | 50 gp  |  | 14 + Dex modifier (max 2) | &mdash;  | Disadvantage | 45 lbs. |
+| Breastplate       | 400 gp | | 14 + Dex modifier (max 2) | &mdash;  | &mdash;      | 20 lbs. |
+| Half Plate        | 750 gp | | 15 + Dex modifier (max 2) | &mdash;  | Disadvantage | 40 lbs. |
+| __Heavy Armour__  |        |                           |          |              |         |
+| Ring Mail         | 30 gp  |  | 14                        | &mdash;  | Disadvantage | 40 lbs. |
+| Chain Mail        | 75 gp  |  | 16                        | Str 13   | Disadvantage | 55 lbs. |
+| Splint            | 200 gp | | 17                        | Str 15   | Disadvantage | 60 lbs. |
+| Plate             | 1500 gp | | 18                        | Str 15   | Disadvantage | 65 lbs. |
+| __Shield__        |        |                           |          |              |         |
+| Shield            | 10 gp  |  | +2                        | &mdash;  | &mdash;      | 6 lbs.  |
+
+### Weapons
+
+| Name                       | Cost    | Damage  | &nbsp;      | Weight  | Properties |
+|:---------------------------|:-------:|--------:|:------------|--------:|:-----------|
+| __Simple Melee Weapons__   |         |         |             |         | |
+| Club                       | 1 sp    | 1d4     | bludgeoning | 2 lb.   | Light
+| Dagger                     | 2 gp    | 1d4     | piercing    | 1 lb.   | Finesse, light, thrown
+| Greatclub                  | 2 gp    | 1d8     | bludgeoning | 10 lb.  | Two-handed
+| Handaxe                    | 5 sp    | 1d6     | slashing    | 2 lb.   | Light, thrown (range 20/60)
+| Javelin                    | 5 sp    | 1d6     | piercing    | 2 lb.   | Thrown (range 30/120)
+| Light Hammer               | 2 gp    | 1d4     | bludgeoning | 2 lb.   | Light, thrown (range 20/60)
+| Mace                       | 5 gp    | 1d6     | bludgeoning | 4 lb.   | &mdash;
+| Quarterstaff               | 2 sp    | 1d6     | bludgeoning | 4 lb.   | Versatile (1d8)
+| Sickle                     | 1 gp    | 1d4     | slashing    | 2 lb.   | Light
+| Spear                      | 1 gp    | 1d6     | piercing    | 3 lb.   | Thrown (range 20/60), versatile (1d8) 
+| __Simple Ranged Weapons__  |         |         |             |         | |
+| Crossbow, light            | 25 gp   | 1d8     | piercing    | 5 lb.   | Ammunition (range 80/320), loading, two-handed 
+| Dart                       | 5 cp    | 1d4     | piercing    | 1/4 lb. | Finesse, thrown (range 20/60)
+| Shortbow                   | 25 gp   | 1d6     | piercing    | 2 lb.   | Ammunition (range 80/320), two-handed 
+| Sling                      | 1 sp    | 1d4     | bludgeoning | &mdash; | Ammunition (range 30/120) 
+| __Martial Melee Weapons__  |         |         |             |         | |
+| Battleaxe                  | 10 gp   | 1d8     | slashing    | 4 lb.   | Versatile (1d10) 
+| Flail                      | 10 gp   | 1d8     | bludgeoning | 2 lb.   | &mdash;
+| Glaive                     | 20 gp   | 1d10    | slashing    | 6 lb.   | Heavy, reach, two-handed 
+| Greataxe                   | 30 gp   | 1d12    | slashing    | 7 lb.   | Heavy, two-handed 
+| Greatsword                 | 50 gp   | 2d6     | slashing    | 6 lb.   | Heavy, two-handed 
+| Halberd                    | 20 gp   | 1d10    | slashing    | 6 lb.   | Heavy, reach, two-handed 
+| Lance                      | 10 gp   | 1d12    | piercing    | 6 lb.   | Reach, special 
+| Longsword                  | 15 gp   | 1d8     | slashing    | 3 lb.   | Versatile (1d10) 
+| Maul                       | 10 gp   | 2d6     | bludgeoning | 10 lb.  | Heavy, two-handed 
+| Morningstar                | 15 gp   | 1d8     | piercing    | 4 lb.   | &mdash;
+| Pike                       | 5 gp    | 1d10    | piercing    | 18 lb.  | Heavy, reach, two-handed 
+| Rapier                     | 25 gp   | 1d8     | slashing    | 2 lb.   | Finesse 
+| Scimitar                   | 25 gp   | 1d6     | piercing    | 3 lb.   | Finesse, light 
+| Shortsword                 | 10 gp   | 1d8     | piercing    | 2 lb.   | Finesse, light 
+| Trident                    | 5 gp    | 1d8     | piercing    | 4 lb.   | Thrown (range 20/60), versatile (1d8)
+| War Pick                   | 5 gp    | 1d8     | piercing    | 2 lb.   | &mdash;
+| Warhammer                  | 15 gp   | 1d8     | bludgeoning | 2 lb.   | Versatile (1d10) 
+| Whip                       | 2 gp    | 1d4     | slashing    | 3 lb.   | Finesse, reach 
+| __Martial Ranged Weapons__ |         |         |             |         | |
+| Blowgun                    | 10 gp   | 1       | piercing    | 1 lb.   | Ammunition (range 25/100), loading 
+| Crossbow, Hand             | 75 gp   | 1d6     | piercing    | 3 lb.   | Ammunition (range 30/120), light, loading 
+| Crossbow, Heavy            | 50 gp   | 1d10    | piercing    | 18 lb.  | Ammunition (range 100/400), heavy, loading, two-handed 
+| Longbow                    | 50 gp   | 1d8     | piercing    | 2 lb.   | Ammunition (range 150/600), heavy, two-handed 
+| Net                        | 1 gp    | &mdash; |             | 3 lb.   | Special, thrown (range 5/15) 

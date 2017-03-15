@@ -17,14 +17,14 @@
 <script>
 
 const replacements = {
-  "[c]"     : ["b", "d", "f", "l", "m", "n", "r", "s", "t", "&eth;"],
-  "[cinit]" : ["b", "c", "d", "f", "g", "j", "l", "m", "n", "p", "r", "s", "t", "&thorn;", "v", "w"],
-  "[cend]"  : ["c", "d",  "l", "m", "n", "r", "s", "t", "&thorn;"],
-  "[v]"     : ["a", "e", "i", "o"],
-  "[wv]"    : ["a", "i", "ia", "ana"],
+  "[c]"         : ["d", "l", "m", "n", "r", "s", "t"],
+  "[cinit]"     : ["b", "c", "d", "f", "g", "j", "l", "m", "n", "r", "s", "t",  "v", "w"],
+  "[cend]"      : ["c", "d",  "l", "m", "n", "r", "s", "t"],
+  "[v]"         : ["a", "e", "i", "o", "u"],
+  "[wv]"        : ["a", "i", "ia", "ana", "ara"],
   
   "[metastart]" : ["[cinit][v][c]","[v][c]"],
-  "[manend]"    : ["[c][v][cend]", "[v][cend]"],
+  "[manend]"    : ["[cinit][v][cend]", "[v][cend]"],
   "[womanend]"  : ["[v][cend][wv]", "[v][cend][wv]", "an"]
 };
 

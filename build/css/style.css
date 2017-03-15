@@ -118,6 +118,9 @@ table {
   table a {
     font-family: "DIN", "DIN Alternate";
     font-size: 16px; }
+  table strong, table h4 {
+    font-family: "Gill Sans", Futura, sans-serif;
+    font-size: 16px; }
 
 @media screen and (max-width: 840px) {
   .table {

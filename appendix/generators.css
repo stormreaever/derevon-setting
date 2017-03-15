@@ -14,13 +14,16 @@ button {
   text-transform: uppercase;
   font-size: 12px;
   letter-spacing: 1px;
+  transition: all 0.15s linear;
+  border: 1px solid #ccc;
 }
 button:hover {
-  background: #ededef;
+  border: 1px solid #aaa;
+  box-shadow: 0 0 4px #ccc;
 }
 button:focus {
-  outline-color: #e66;
   outline: none;
+  box-shadow: 0 0 4px #ccc;
 }
 button:active {
   background: #e6e6e9;

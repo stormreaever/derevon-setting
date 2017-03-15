@@ -152,6 +152,10 @@ table {
     font-family: $fonts-DIN; 
     font-size: 16px;
   }
+  strong, h4 {
+    font-family: $fonts-sans;
+    font-size: 16px;
+  }
 }
 @media screen and (max-width: 840px) {
   .table {
