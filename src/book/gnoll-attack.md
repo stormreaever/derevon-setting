@@ -28,9 +28,9 @@ Joran (M) Human.
   
 ##### The Hunter
 
-Donnec (M) Human.
+Dannec (M) Human.
 
-  - skilled [hunter](#donnec-the-hunter)
+  - skilled [hunter](#dannec-the-hunter)
   - has a pet [Blink Dog](#blink-dog) (MM 318) that he brings along on the hunt.
   - wants to protect his family (wife and daugter)
   
@@ -268,7 +268,7 @@ If they show the signet ring or banner to knowledgeable people in town, they wil
 
 # Stat Blocks
 
-## Donnec the Hunter
+## Dannec the Hunter
 
 *Medium human, lawful neutral*
 
@@ -625,7 +625,7 @@ __Properties:__ &mdash;
 
 #### Secret Stuff
 
-
+When the Baron of Arramon grants land to someone and turns them into a knight, he also gives them an ornate mace like this one. It is a symbol of the knight's bond to the baron. 
 
 
 ### a scrap of an emblazoned blue banner (INT check reveals it's from the neighbouring Barony of Arramon; this is obvious to the traveler from Arramon)
