@@ -1,10 +1,36 @@
 # Module 2: Gnoll Attack on Bryder
 
+## Premise
+
+There's a den of gnolls in the western Leonian forest, close to the village of Bryder. They have preyed upon civilized passers-by, including an esteemed knight of Arramon and his party. 
+
+One morning, when a hunting party from Bryder is out, they realize they are being tracked by two gnolls. They fight and kill one, but the other escapes back to its den. They realize that the den will be after them now, and in order to protect the town, the den of gnolls must be erradicated. 
+
+So the leader of the hunters, Dannec, announces the encounter during the village meeting that morning. Will anyone step up to take on this challenge?
+
+## Player Characters
+
+PCs for this adventure are all at level 2, and will be a subset of the following: 
+
+- __Human Paladin:__ a resident of Bryder, the younger child of a noble dedicated to the path of the ancients. Wants to spread goodness because it is beautiful. Sees a duty to protect the land from anything that would spoil it. 
+
+- __Tiefling Warlock:__ A traveller through Bryder who is on a path, seeking something. 
+
+- __half elf bard:__ a resident of Bryder who works in town and aspires to greatness through adventure.
+
+- __wood elf ranger:__ a forest wanderer who has been taken in by townspeople in Bryder. 
+
+- __halfling rogue:__ a criminal on the run. Found a place to stay here, but you probably need to leave soon. 
+
+- and shay is a __half elf druid:__ studied under the druid of Bryer, but now that she's dead you try to take her place.
+
 ## Setting
 
 ### The Village of Bryder
 
 The PCs are residents of a small village called Bryder. One or two (of the more exotic races) might be travelers passing through. 
+
+Bryder is in the Barony of Antrim, in the County of Blackmere. 
 
 Bryder has woods to the south and is supported by the surrounding farmland (mostly to the east and north). Nearby landmarks include:
   - main road through the village going east and west
@@ -152,7 +178,7 @@ It contains:
 - a [finely crafted mace](#fine-mace)
 - a broken wooden shield
 - 2d6 broken arrows
-- a scrap of an emblazoned blue banner (INT check reveals it's from the neighbouring Barony of Arramon; this is obvious to the traveler from Arramon)
+- a [scrap of an emblazoned blue banner](#scrap-of-blue-cloth)
 - a crude pair of wooden dice
 - a pile of blood-soaked rags
 
@@ -169,12 +195,12 @@ Large open room. Stepped on both sides. -____- like that
 It contains:
 - remains of wild boar
 - sharp sticks
-- a rusted short sword
+- a [rusted shortsword](#rusted-shortsword)
 - a small pile of shiny treasure
   - 40 copper pieces
   - 120 silver pieces
-  - a chain shirt
-  - a pair of gauntlets, with hands still inside
+  - a [chain shirt](#chain-shirt)
+  - a [pair of gauntlets, with hands still inside](#pair-of-gauntlets)
 
 ##### Waste alcove
 
@@ -197,10 +223,9 @@ Small room with standing guard stuff.
 
 It contains:
 - a pile of rags
-- fancy bracers
-- a scrap of soft blue cloth
+- [fancy bracers](#fancy-bracers)
 - empty arrow quiver
-- a diamond
+- a [diamond](#diamond)
 
 ##### Gnoll living (1)
 
@@ -233,11 +258,11 @@ The boss fight! This room has 2 gnolls, the gnoll cultist, and 2 hyenas. They at
 If the gnolls are in danger the hyenas will flee towards the closest entrance. 
 
 The room contains:
-- ivory small bracelet
+- ivory bracelet
 - elaborate quilt
 - 6 bottles of wine from the Barony of Arramon
 - a silver flute
-- a Belt of Quickness (+1 dex, +10 ft to speed)
+- a [Belt of Quickness](#belt-of-quickness) (+1 dex, +10 ft to speed)
 - a magic longbow (+1)
 - a pile of coins and gems
   - 70 copper pieces
@@ -623,54 +648,81 @@ __Damage:__ 1d6 bludgeoning
 __Weight:__ 4 lb.  
 __Properties:__ &mdash;
 
-#### Secret Stuff
+#### Details
 
 When the Baron of Arramon grants land to someone and turns them into a knight, he also gives them an ornate mace like this one. It is a symbol of the knight's bond to the baron. 
 
-
-### a scrap of an emblazoned blue banner (INT check reveals it's from the neighbouring Barony of Arramon; this is obvious to the traveler from Arramon)
-
-
-- remains of wild boar
-- sharp sticks
-- a rusted short sword
-- a small pile of shiny treasure
-  - 40 copper pieces
-  - 120 silver pieces
-  - a chain shirt
-  - a pair of gauntlets, with hands still inside
+If you try to sell the mace, the shopkeep will identify the mace immediately and refuse to buy it. 
 
 
-- a pile of rags
-- fancy bracers
-- a scrap of soft blue cloth
-- empty arrow quiver
-- a diamond
+### Scrap of blue cloth
+
+A scrap of an emblazoned blue banner. Three white crescent moons on a blue background. 
+
+#### Details
+
+This is a banner with the coat of arms of the Barony of Arramon. It would be flown by anyone representing the barony. 
+
+- Someone from Arramon or from southern Leonia would know this. 
+- Someone from elsewhere in Leonia would know on a INT check of 15. 
 
 
-- piles of rags
-- crude dice
-- 30 copper pieces
-- 7 gold pieces
+### rusted shortsword
+
+A rusted shortsword.
 
 
-- ivory small bracelet
+#### Simple Melee Weapon
+
+__Damage:__ 1d6-1	piercing  
+__Weight:__ 2 lb.  
+__Properties:__ Finesse, light
+
+This sword is worthless to any potential buyer. 
+
+### chain shirt
+
+A well-crafted chain shirt.
+
+#### Medium Armour
+
+__AC__ 13 + Dex mod (max 2)  
+__Weight__ 20 lbs.
+
+Sells for 15 gp in Bryder. The shopkeep mentions the great quality of the workmanship. (But no bonuses beyond regular chain shirts.)
+
+
+### Pair of Gauntlets
+
+A pair of nice gauntlets with hands inside. 
+
+If you remove the hands and clean them up, they can be sold for 5 sp. They cannot be sold with the hands still inside. 
+
+### Fancy Bracers
+
+A nice pair of leather bracers. 
+
+Can be sold for 1 sp. 
+
+### ivory bracelet
+
+Worth 10 gp. People in Bryder can only offer 5 gp. 
+
 - elaborate quilt
 - 6 bottles of wine from the Barony of Arramon
 - a silver flute
-- a Belt of Quickness (+1 dex, +10 ft to speed)
-- a magic longbow (+1)
-- a pile of coins and gems
-  - 70 copper pieces
-  - 12 silver pieces
-  - 38 gold pieces
-  - 3 rubies
-  
-  
-- a pile of rags
-- sticks
-- rabbit fur
-- broken comb
-- signet ring 
 
-from Barony of Arramon
+### Belt of Quickness 
+
+A thin leather belt. Putting it on, the wearer will immediately feel a lightness in their step. 
+
++1 dex, +10 ft to speed
+  
+
+### signet ring 
+
+The ring bears the symbol of an unknown knight.
+
+#### Details
+
+The knight that bears this symbol is a knight of Arramon. 

@@ -476,7 +476,7 @@ While using a shield, any time you take damage, you can use your reaction to say
 <tr>
 <td style="text-align:left">Shortsword</td>
 <td style="text-align:center">10 gp</td>
-<td style="text-align:right">1d8</td>
+<td style="text-align:right">1d6</td>
 <td style="text-align:left">piercing</td>
 <td style="text-align:right">2 lb.</td>
 <td style="text-align:left">Finesse, light </td>
@@ -484,7 +484,7 @@ While using a shield, any time you take damage, you can use your reaction to say
 <tr>
 <td style="text-align:left">Trident</td>
 <td style="text-align:center">5 gp</td>
-<td style="text-align:right">1d8</td>
+<td style="text-align:right">1d6</td>
 <td style="text-align:left">piercing</td>
 <td style="text-align:right">4 lb.</td>
 <td style="text-align:left">Thrown (range 20/60), versatile (1d8)</td>
