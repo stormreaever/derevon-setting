@@ -28,7 +28,7 @@ PCs for this adventure are all at level 2, and will be a subset of the following
 
 ### The Village of Bryder
 
-The PCs are residents of a small village called Bryder. One or two (of the more exotic races) might be travelers passing through. 
+The PCs are staying in a small village called Bryder. 
 
 Bryder is in the Barony of Antrim, in the County of Blackmere. 
 
@@ -178,7 +178,7 @@ It contains:
 - a [finely crafted mace](#fine-mace)
 - a broken wooden shield
 - 2d6 broken arrows
-- a [scrap of an emblazoned blue banner](#scrap-of-blue-cloth)
+- a [scrap of blue cloth](#scrap-of-blue-cloth)
 - a crude pair of wooden dice
 - a pile of blood-soaked rags
 
