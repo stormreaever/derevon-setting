@@ -30,7 +30,8 @@ Joran (M) Human.
 
 Donnec (M) Human.
 
-  - has a pet Blink Dog (MM 318) that he brings along on the hunt.
+  - skilled [hunter](#donnec-the-hunter)
+  - has a pet [Blink Dog](#blink-dog) (MM 318) that he brings along on the hunt.
   - wants to protect his family (wife and daugter)
   
 ##### The Carpenter
@@ -63,18 +64,19 @@ See [Stat Blocks](#stat-blocks) for creature stats.
 
 | roll d6| monster          | MM  |&nbsp;|
 |:------:|:-----------------|----:|-|
-|1-2     | 2d6 Living Brush |  32 | want to drink the party's blood
-|3-4     | 2d4 Stirges      | 284 | want a quick meal of the party's blood and will leave after a bite each
-|5       | 2d4 Hyenas       | 341 | want a meal but will flee quickly
-|6       | 1 Boar           | 319 | want to survive (but the hunter wants to kill)
+|1-2     | 2d6 [Living Brush](#living-brush) |  32 | want to drink the party's blood
+|3-4     | 2d4 [Stirges](#stirge)      | 284 | want a quick meal of the party's blood and will leave after a bite each
+|5       | 2d4 [Hyenas](#hyena)       | 341 | want a meal but will flee quickly
+|6       | 1 [Boar](#boar)           | 319 | want to survive (but the hunter wants to kill)
 
 #### Gnoll Den (Table 2)
 
 | CR  | name          | MM  |&nbsp;|
 |:---:|:--------------|----:|------|
-| 1/2 | Gnoll         | 163 | |
-|  1  | Gnoll Cultist | 163 | leader of the group. Gnoll with spells
-| 1/4 | Hyena         | 341 | pets of the gnolls
+| 1/2 | [Melee Gnoll](#gnoll-melee-)         | 163 | |
+| 1/2 | [Ranged Gnoll](#gnoll-ranged-)         | 163 | |
+|  1  | [Gnoll Cultist](#gnoll-cultist) | 163 | leader of the group. Gnoll with spells
+| 1/4 | [Hyena](#hyena)         | 341 | pets of the gnolls
 
 ## Adventure
 
@@ -266,7 +268,7 @@ If they show the signet ring or banner to knowledgeable people in town, they wil
 
 # Stat Blocks
 
-## Hunter
+## Donnec the Hunter
 
 *Medium human, lawful neutral*
 
