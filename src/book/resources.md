@@ -228,6 +228,10 @@ When the trigger occurs, you can either take your  reaction right after the trig
 </tbody>
 </table>
 
+#### Shield Rule
+
+While using a shield, any time you take damage, you can use your reaction to say your shield absorbed the force of the blow. The shield is shattered and must be discarded, but you don't take any damage from that hit. 
+
 ### Weapons
 <table>
 <thead>
