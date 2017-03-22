@@ -365,9 +365,10 @@ __Keen Hearing and Smell.__ The dog has advantage on  Wisdom (Perception) checks
 
 ### Actions 
 
-__Bite.__ Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 1d6 + 1 piercing damage. 
+__Bite.__ Melee Weapon Attack: +3 to hit, reach 5 ft., one target.  
+Hit: 1d6 + 1 piercing damage. 
 
-__Teleport (Recharge 4–6).__ The dog magically teleports,  along with any equipment it is wearing or carrying, up  to 40 feet to an unoccupied space it can see. Before or  after teleporting, the dog can make one bite attack. 
+__Teleport (Recharge 4–6).__ The dog magically teleports, along with any equipment it is wearing or carrying, up  to 40 feet to an unoccupied space it can see. Before or  after teleporting, the dog can make one bite attack. 
 
 ## Gnoll (Melee)
 
@@ -377,8 +378,8 @@ __Armor Class__ 15 (hide armor, shield)
 __Hit Points__ 22 (5d8)  
 __Speed__ 30 ft. 
 
-| STR | DEX | CON | INT | WIS | CHA |
-<!-- |:---:|:---:|:---:|:---:|:---:|:---:| -->
+| STR | DEX | CON | INT | WIS | CHA | 
+|:---:|:---:|:---:|:---:|:---:|:---:|
 | 14 (+2) | 12 (+1) | 11 (+0) | 6 (-2) | 10 (+0) | 7 (-2) 
 
 __Senses__ darkvision 60 ft., passive Perception 10  
@@ -391,9 +392,11 @@ __Rampage.__ When the gnoll reduces a creature to 0 hit  points with a melee att
 
 ### Actions 
 
-__Bite.__ Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 4 (1d4 + 2) piercing damage.  
+__Bite.__ Melee Weapon Attack: +4 to hit, reach 5 ft., one creature.  
+Hit: 4 (1d4 + 2) piercing damage.  
 
-__Spear.__ Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 1d6 +  2 piercing damage, or 1d8 + 2 piercing damage if  used with two hands to make a melee attack.  
+__Spear.__ Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60 ft., one target.  
+Hit: 1d6 + 2 piercing damage, or 1d8 + 2 piercing damage if  used with two hands to make a melee attack.  
 
 ### Equipment
 
@@ -423,9 +426,11 @@ __Rampage.__ When the gnoll reduces a creature to 0 hit points with a melee atta
 
 ### Actions 
 
-__Bite.__ Melee Weapon Attack: +4 to hit, reach 5 ft., one  creature. Hit: 1d4 + 2 piercing damage.  
+__Bite.__ Melee Weapon Attack: +4 to hit, reach 5 ft., one creature.  
+Hit: 1d4 + 2 piercing damage.  
 
-__Longbow.__ Ranged Weapon Attack: +3 to hit, range  150/600 ft., one target. Hit: 1d8 + 1 piercing  damage.  
+__Longbow.__ Ranged Weapon Attack: +3 to hit, range  150/600 ft., one target.  
+Hit: 1d8 + 1 piercing  damage.  
 
 ### Equipment
 
