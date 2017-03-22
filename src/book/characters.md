@@ -37,15 +37,23 @@ Decide who your character will be. Let your concept guide you through the next s
 
 Legal races, in order of abundance:
 
-- Human : the dominant race in Anatellus. Humans are ambitious explorers, traders, and conquerors.
-- Half-elf : the descendants of human mothers and elf fathers. Most half-elves live among humans, and may be far removed from their elvish heritage.
-- Elf : elves traveled to Anatellus from Talahaka. They live in nomadic communities or alone, wandering with little respect for human boundaries.
-- Dwarf : the dwarf homeland is in the Koduma mountains, but many dwarves have migrated to Periagata and throughout Anatellus in search of treasure and glory.
-- Halfling : their homeland is in the south. Halfkings live peacefully among humans and are known for their entertainment and fine crafts.
-- Goliath
-- Dragonborn
-- Tiefling
-- Gnome
+- __Human :__ the dominant race in Anatellus. Humans are ambitious explorers, traders, and conquerors.
+
+- __Half-elf :__ the descendants of human mothers and elf fathers. Most half-elves live among humans, and may be far removed from their elvish heritage.
+
+- __Elf :__ elves traveled to Anatellus from Talahaka. They live in nomadic communities or alone, wandering with little respect for human boundaries.
+
+- __Dwarf :__ the dwarf homeland is in the Koduma mountains, but many dwarves have migrated to Periagata and throughout Anatellus in search of treasure and glory.
+
+- __Halfling :__ their homeland is in the south. Halfkings live peacefully among humans and are known for their entertainment and fine crafts.
+
+- __Goliath :__ goliath tribes originate in the mountains of Cīla Bhīra. They have been part of human empires and can be found living in western Anatellus. 
+
+- __Dragonborn :__ dragonborn are known through Anatellus as self-sufficient warriors. They are often solitary, interacting with human civilization as mercenaries and soldiers. Dragonborn never seem to be happy in human society. 
+
+- __Tiefling :__ Tieflings are half-fiends born of a human mother and incubus father. They live among humans, persecuted for their fiendish parentage. 
+
+- __Gnome :__ gnomes exist as well. :/
 
 Legal classes:
 
