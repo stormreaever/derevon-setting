@@ -8,7 +8,7 @@
 
 ### Setting
 
-This campaign takes place in a land called [Derevon](img/map-anatellus.pdf). You start in Huntington;itt is a small town on the borderlands of the kingdon of Leonia. Leonia is the homeland of a great emperor who united the lands under one banner. But that was 1000 years ago -- hundreds of years ago, the empire was broken into several disparate kingdoms that are now separated by dense forest and orc territory. But various leaders are trying to revive past empires through various methods. You might get caught up in them, or you might have goals of your own.
+This campaign takes place in a land called [Derevon](img/map-anatellus.pdf). You start in Huntington, a small town on the borderlands of the kingdon of Leonia. Leonia is the homeland of a great emperor who united the lands under one banner. But that was 1000 years ago -- hundreds of years ago, the empire was broken into several disparate kingdoms that are now separated by dense forest and orc territory. But various leaders are trying to revive past empires through various methods. You might get caught up in them, or you might have goals of your own.
 
 Each character you create should have a reason for being in Huntington and a pre-existing relationship with at least one other PC.
 
